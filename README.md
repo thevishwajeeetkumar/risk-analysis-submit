@@ -6,6 +6,16 @@ Cloud-ready ECL analytics with a FastAPI backend, Neon + Pinecone persistence, a
 - Frontend: https://risk-frontend-snowy.vercel.app
 - Backend: https://risk-analysis-3bwh.onrender.com
 
+## Credentials 
+--Analyst 
+  Username - thevishwwajeetkumar
+  Password - Vishwa7638 
+
+--CRO 
+  Username - achiever
+  Password - Achiever1234
+
+
 ## Key Features
 - **Automated pipeline:** CSV/XLSX ingest → preprocessing → DB schema validation → loan storage → ECL (PD/LGD/EAD) → RAG embedding.
 - **Auth & RBAC:** JWT login/register, CRO bypass, analyst auto-grants for safe segments (`loan_intent`, `person_gender`, `person_education`, `person_home_ownership`).
@@ -94,5 +104,6 @@ Health check: `GET https://risk-analysis-3bwh.onrender.com/vercel/health`.
 - Infrastructure: Neon, Pinecone, OpenAI, Render, Vercel.
 
 For detailed fix logs and methodologies, see `server/docs/`.
+
 
 
